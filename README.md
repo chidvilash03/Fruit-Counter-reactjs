@@ -1,45 +1,45 @@
-In this project, let's fix the **Fruits Counter** by applying the concepts we have learned till now.
+In this project, I built a **Fruits Counter** 
 
 ### Refer to the image below:
 
 <br/>
 <div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/debugging-fruits-counter-output.gif" alt="fruits-counter" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
+    <img src="https://assets.ccbp.in/frontend/content/react-js/fruits-counter-output.gif" alt="fruits-counter" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
 </div>
 <br/>
 
-### Set Up Instructions
+### Design Files
 
 <details>
 <summary>Click to view</summary>
 
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
+- [Extra Small (Size < 576px) and Small (Size >= 576px)](https://assets.ccbp.in/frontend/content/react-js/fruits-counter-sm-output.png)
+- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](https://assets.ccbp.in/frontend/content/react-js/fruits-counter-lg-output.png)
+
 </details>
 
-### Completion Instructions
 
 <details>
-<summary>Functionality to be fixed</summary>
+<summary>Functionality added</summary>
 <br/>
 
-Fix the given code to have the following functionality
+The app have the following functionalities
 
-- Initially, the count of the eaten mangoes should be four and the count of the eaten bananas should be five
-- When the **Eat Mango** button is clicked, then the count of the mangoes eaten should be incremented by one
-- When the **Eat Banana** button is clicked, then the count of the bananas eaten should be incremented by one
+- Initially, the count of the eaten mangoes and bananas should be 0
+- When **Eat Mango** is clicked the count of the mangoes eaten should be incremented by 1
+- When **Eat Banana** is clicked the count of the bananas eaten should be incremented by 1
 
 </details>
-
-### Quick Tips
 
 <details>
-<summary>Click to view</summary>
-<br>
+<summary>Implementation Files</summary>
+<br/>
 
-- There are `8` bugs to be fixed to achieve the functionality and the UI that is expected
-
+- `src/components/FruitsCounter/index.js`
+- `src/components/FruitsCounter/index.css`
 </details>
+
+
 
 ### Resources
 
@@ -51,9 +51,19 @@ Fix the given code to have the following functionality
 
 </details>
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+<details>
+<summary>Colors</summary>
+
+<br/>
+
+<div style="background-color: #ffd569 ; width: 150px; padding: 10px; color: black">Hex: #ffd569</div>
+<div style="background-color: #ffffff ; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
+<div style="background-color: #000000 ; width: 150px; padding: 10px; color: white">Hex: #000000</div>
+<div style="background-color: #007bff ; width: 150px; padding: 10px; color: white">Hex: #007bff</div>
+
+</details>
+
+<details>
+<summary>Font-families</summary>
+
+- Roboto
